@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Find Your Hustle</title>
+</head>
+<body>
+  <h1>Let’s Find Your Hustle</h1>
+
+  <form id="hustleForm">
+    <label>Age:
+      <select name="age">
+        <option value="13-15">13-15</option>
+        <option value="16-18">16-18</option>
+      </select>
+    </label><br><br>
+
+    <label>Free time / week:
+      <select name="time">
+        <option value="<5 h"><5 h</option>
+        <option value="5-10 h">5-10 h</option>
+        <option value="10+ h">10+ h</option>
+      </select>
+    </label><br><br>
+
+    <label>Interests:
+      <select name="interest">
+        <option value="Tech">Tech</option>
+        <option value="Art / Design">Art / Design</option>
+        <option value="Outdoors">Outdoors</option>
+        <option value="Writing">Writing</option>
+      </select>
+    </label><br><br>
+
+    <label>ZIP Code:
+      <input type="text" name="zipcode" required />
+    </label><br><br>
+
+    <button type="submit">Get Hustles</button>
+  </form>
+
+  <div id="results"></div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
 
